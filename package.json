@@ -1,17 +1,36 @@
 {
-  "name": "ski-dictionary",
+  "name": "locator",
   "version": "1.0.0",
-  "description": "A collection of skier terms and definitions",
+  "description": "for locating services",
   "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express-session": "^1.14.2",
+    "flash": "^1.1.0",
+    "lokijs": "^1.4.2",
+    "mysql": "^2.12.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwamizimatu/locate.git"
+  },
   "keywords": [
-    "ski",
-    "terms",
-    "dictionary"
+    "locate",
+    "node",
+    "google",
+    "services",
+    "locator",
+    "framework7"
   ],
-  "author": "Alex Banks",
+  "author": "eden kwamizimatu",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.0",
@@ -19,5 +38,9 @@
     "cors": "^2.7.1",
     "express": "^4.13.3",
     "mysql": "^2.12.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/kwamizimatu/locate/issues"
+  },
+  "homepage": "https://github.com/kwamizimatu/locate#readme"
 }
